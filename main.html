@@ -1,37 +1,55 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        nav {
+            width: 100%;
+            background-color: black;
+            padding: 15px;
+        }
+
+        .item {
+            padding-left: 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+        }
+        h1{
+            padding: 30px;
+        }
+        audio{
+            border: 0%;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<nav>
-		<ul>
-			<li><a href="https://course.acciojob.com/modules">HOME</a></li>
-			<li><a href="https://course.acciojob.com/live-doubts">About us</a></li>
-			<li><a href="https://course.acciojob.com/gym">Contact us</a></li>
-		</ul>
-	</nav>
-	<h1>3 random audios</h1>
-	<audio controls>
-		<source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mp3">
-	</audio>
-	<br>
-	<h1>3 random audios</h1>
-	<audio controls>
-		<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-	</audio>
-	<br>
-	<h1>3 random audios</h1>
-	<audio controls>
-		<source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mp3">
-	</audio>
-    <script type="text/javascript" src="./script.js">
-</script>
+    <nav>
+        <ul>
+            <a href="#" class="item">Home</a>
+            <a href="#" class="item">About us</a>
+            <a href="#" class="item">contact us</a>
+        </ul>
+    </nav>
 
+    <header>
+        <h1>3 random audios</h1>
+    </header>
+    <main>
+        <audio src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" controls></audio>
+        <audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls></audio>
+        <audio src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" controls></audio>
+    </main>
 </body>
 
 </html>
